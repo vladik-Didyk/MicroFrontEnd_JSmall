@@ -1,7 +1,7 @@
-import faker from 'faker';
+import faker from "faker";
 
 const mount = (el) => {
-  let products = '';
+  let products = "";
 
   for (let i = 0; i < 5; i++) {
     const name = faker.commerce.productName();
@@ -16,8 +16,8 @@ const mount = (el) => {
 // We are using our local index.html file
 // Which DEFNITELY has an element with an id of 'dev-products
 // We want to immediately render our app into that element
-if (process.env.NODE_ENV === 'development') {
-  const el = document.querySelector('#dev-products');
+if (process.env.NODE_ENV === "development") {
+  const el = document.querySelector("#products-dev");
 
   // Assuming our container doesnt have an element
   // with id 'dev-products'....
