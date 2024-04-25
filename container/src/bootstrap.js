@@ -1,4 +1,4 @@
-import "productsBootstrap/ProductsIndex";
-import "cartBootstrap/CartShow";
+import 'products/ProductsIndex';
+import 'cart/CartShow';
 
-console.log("Container!");
+console.log('Container!');
