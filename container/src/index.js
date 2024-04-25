@@ -1,1 +1,1 @@
-console.log("Container folder");
+import('./bootstrap');
